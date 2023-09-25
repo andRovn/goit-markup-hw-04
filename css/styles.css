@@ -469,7 +469,6 @@ button {
 }
 
 .ul-port {
-  width: 1128px;
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
@@ -526,8 +525,6 @@ button {
 
 .customers-list {
   display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 24px;
 }
 
@@ -544,7 +541,6 @@ button {
   height: 88px;
   border: 1px solid var(--LIGHT-SLATE, #8e8f99);
   border-radius: 4px;
-  margin-bottom: 120px;
 }
 
 .second-section-logos {
@@ -772,6 +768,8 @@ button {
 }
 
 .custom-link {
+  width: 100%;
+  height: 100%;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   display: flex;
