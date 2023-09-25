@@ -410,7 +410,6 @@ button {
 
 .ul-header {
   display: flex;
-  align-items: flex-start;
   gap: 40px;
 }
 
@@ -422,6 +421,10 @@ button {
 .header-nav {
   display: flex;
   align-items: center;
+}
+
+.nav-list {
+  display: block;
 }
 
 .list-buttons {
@@ -586,16 +589,6 @@ button {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 40px;
   height: 40px;
-}
-
-.team-social-links {
-  width: 100%;
-  height: 100%;
-  background-color: var(--social-color);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .team-social-links:hover,
@@ -809,4 +802,19 @@ button {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-links-social {
+  width: 100%;
+  height: 100%;
+  background-color: var(--social-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-links-social:hover,
+.team-links-social:focus {
+  background-color: #404bbf;
 }
