@@ -98,7 +98,8 @@ img {
   letter-spacing: 0.02em;
   gap: 40px;
   padding: 24px 0;
-  transition-duration: 1s;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .add-list:hover {
@@ -148,7 +149,8 @@ img {
   border: none;
   cursor: pointer;
   margin: 48px auto;
-  transition-duration: 1s;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .features-section {
@@ -203,6 +205,8 @@ button {
   letter-spacing: 0.02em;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .foot {
@@ -245,13 +249,16 @@ button {
   border: 1px solid #404bbf;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08),
     0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-  transition-duration: 1s;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .all-click-port:hover,
 .all-click-port:focus {
   background: #fff;
   color: #404bbf;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .click-port {
@@ -259,13 +266,16 @@ button {
   background: #f4f4fd;
   border-radius: 4px;
   padding: 12px 24px;
-  transition-duration: 1s;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .click-port:hover {
   color: #ffffff;
   background-color: #404bbf;
   border: 1px solid transparent;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .click-port:focus {
@@ -445,7 +455,8 @@ button {
   line-height: 1.5;
   letter-spacing: 0.32px;
   padding: 24px 0;
-  transition-duration: 1s;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .all-button-text {
@@ -455,12 +466,15 @@ button {
   font-weight: 500;
   line-height: 1.5px;
   letter-spacing: 0.64px;
-  transition-duration: 1s;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .all-button-text:hover,
 .all-button-text:focus {
   color: #4d5ae5;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .button-text {
@@ -470,7 +484,8 @@ button {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
-  transition-duration: 1s;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .ul-port {
@@ -523,7 +538,8 @@ button {
 .custom-logo {
   fill: #8e8f99;
   margin: 16px 32px;
-  transition-duration: 1s;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-list {
@@ -545,7 +561,8 @@ button {
   border: 1px solid var(--LIGHT-SLATE, #8e8f99);
   border-radius: 4px;
   margin-bottom: 120px;
-  transition-duration: 1s;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .second-section-logos {
@@ -561,18 +578,23 @@ button {
 .custom-logo:hover,
 .custom-logo:focus {
   fill: #404bbf;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .customers-item:hover,
 .customers-item:focus {
   border-color: #404bbf;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .logo-social-team {
   border-radius: 50%;
   background: #404bbf;
   border-color: #404bbf;
-  transition-duration: 1s;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo-team-svg {
@@ -584,7 +606,8 @@ button {
   border-radius: 50%;
   background: #404bbf;
   border-color: #404bbf;
-  transition-duration: 1s;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .foot-social-logo {
@@ -594,11 +617,15 @@ button {
 .foot-social-item:hover,
 .foot-social-item:focus {
   background-color: #31d0aa;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .logo-social-team:hover,
 .logo-social-team:focus {
   background-color: #31d0aa;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .current:after {
@@ -652,7 +679,7 @@ button {
 .backdrop.is-hidden {
   visibility: hidden;
   opacity: 0;
-
+  pointer-events: none;
   transform: translateY(100%);
 }
 
@@ -663,11 +690,14 @@ button {
 .overlay-link:hover .overlay-par,
 .overlay-link:focus .overlay-par {
   transform: translateY(0%);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .overlay {
   position: relative;
   overflow: hidden;
+  transition: transform 250ms ease-in-out;
 }
 
 .overlay-par {
