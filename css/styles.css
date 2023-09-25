@@ -550,8 +550,6 @@ button {
   border: 1px solid var(--LIGHT-SLATE, #8e8f99);
   border-radius: 4px;
   margin-bottom: 120px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .second-section-logos {
@@ -586,7 +584,6 @@ button {
   border-radius: 50%;
   background: #404bbf;
   border-color: #404bbf;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 40px;
   height: 40px;
 }
@@ -713,10 +710,16 @@ button {
   display: block;
 }
 
-.overlay-link:hover,
+.overlay-link:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+  transform: translateY(0%);
+}
+
 .overlay-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
+  transform: translateY(0%);
 }
 
 .overlay-link:hover .overlay-par,
@@ -812,6 +815,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-links-social:hover,
