@@ -283,7 +283,6 @@ button {
 .list-images {
   border-bottom: 1px solid #e7e9fc;
   width: calc((100% - 48px) / 3);
-  display: block;
 }
 
 .section {
@@ -690,6 +689,7 @@ button {
 
 .port-cards-links {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: block;
 }
 
 .port-cards-links:hover,
