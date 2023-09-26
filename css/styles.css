@@ -685,6 +685,7 @@ button {
 .port-cards-links {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: block;
+  color: inherit;
 }
 
 .port-cards-links:hover {
@@ -779,6 +780,7 @@ button {
   color: var(--custom-links);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: inherit;
 }
 
 .customers-link:hover,
