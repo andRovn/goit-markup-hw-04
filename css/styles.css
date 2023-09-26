@@ -761,8 +761,6 @@ button {
 .customers-list {
   display: flex;
   gap: 24px;
-  width: auto;
-  height: auto;
 }
 
 .customers-item {
@@ -824,4 +822,9 @@ button {
 
 .focus-links:focus .overlay-par {
   transform: translateY(0%);
+}
+
+.width-height {
+  height: 100%;
+  width: 100%;
 }
