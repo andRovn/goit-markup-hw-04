@@ -700,10 +700,7 @@ button {
   transform: translateY(0%);
 }
 
-.port-cards-links:hover .overlay-par {
-  transform: translateY(0%);
-}
-
+.port-cards-links:hover .overlay-par,
 .port-cards-links:focus .overlay-par {
   transform: translateY(0%);
 }
