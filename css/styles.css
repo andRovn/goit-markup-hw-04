@@ -761,6 +761,8 @@ button {
 .customers-list {
   display: flex;
   gap: 24px;
+  width: auto;
+  height: auto;
 }
 
 .customers-item {
@@ -771,11 +773,11 @@ button {
 }
 
 .customers-link {
-  height: 100%;
-  width: 100%;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   display: flex;
+  height: 100%;
+  width: 100%;
   align-items: center;
   justify-content: center;
   color: var(--custom-links);
