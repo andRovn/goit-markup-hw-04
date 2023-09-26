@@ -773,8 +773,8 @@ button {
   height: 100%;
 }
 
-.custom-link:hover,
-.custom-link:focus {
+.customers-link:hover,
+.customers-link:focus {
   border-color: #404bbf;
   color: #404bbf;
 }
