@@ -395,11 +395,8 @@ button {
   color: var(--custom-title);
   text-align: center;
   font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.72px;
-  text-transform: capitalize;
   margin-bottom: 72px;
 }
 
@@ -523,13 +520,8 @@ button {
 .custom-logo {
   fill: currentColor;
   margin: 16px 32px;
-}
-
-.customers-list {
-  display: flex;
-  gap: 24px;
-  height: 100%;
-  width: 100%;
+  width: 104px;
+  height: 56px;
 }
 
 .logo-social-list {
@@ -538,15 +530,6 @@ button {
   margin-top: 8px;
   justify-content: center;
   align-items: center;
-}
-
-.customers-item {
-  width: calc((100% - 120px) / 6);
-  height: 88px;
-  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
-  border-radius: 4px;
-  height: 100%;
-  width: 100%;
 }
 
 .second-section-logos {
@@ -563,8 +546,8 @@ button {
   margin: 24px 100px;
 }
 
-.custom-logo:hover,
-.custom-logo:focus {
+.customers-link:hover,
+.customers-link:focus {
   fill: #404bbf;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -773,8 +756,19 @@ button {
 .section-customers {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.customers-list {
+  display: flex;
+  gap: 24px;
   height: 100%;
-  width: 100%;
+}
+
+.customers-item {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
+  border-radius: 4px;
 }
 
 .customers-link {
