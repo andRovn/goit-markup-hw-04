@@ -493,6 +493,7 @@ button {
 .portfolio-section {
   padding-top: 96px;
   padding-bottom: 120px;
+  display: block;
 }
 
 .container-foot {
@@ -775,7 +776,7 @@ button {
   width: 100%;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   color: var(--custom-links);
@@ -822,4 +823,8 @@ button {
 
 .focus-links:focus .overlay-par {
   transform: translateY(0%);
+}
+
+.section-fifth {
+  display: block;
 }
