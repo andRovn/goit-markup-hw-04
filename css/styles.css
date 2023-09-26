@@ -785,12 +785,11 @@ button {
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.port-cards-links:hover .overlay-par,
-.port-cards-links:focus .overlay-par {
+.port-cards-links:hover .overlay-par {
   transform: translateY(0%);
 }
 
-.port-cards-links:hover .overlay-par {
+.port-cards-links:focus .overlay-par {
   transform: translateY(0%);
 }
 
