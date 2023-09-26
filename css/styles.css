@@ -727,7 +727,8 @@ button {
   letter-spacing: 0.32px;
 
   position: absolute;
-
+  height: 100%;
+  width: 100%;
   transform: translateY(100%);
   top: 0;
   background: #4d5ae5;
