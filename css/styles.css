@@ -19,6 +19,10 @@ p {
   margin: 0;
 }
 
+a {
+  display: block;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -768,7 +772,6 @@ button {
   height: 88px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  display: block;
 }
 
 .customers-link {
@@ -776,7 +779,7 @@ button {
   width: 100%;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   color: var(--custom-links);
