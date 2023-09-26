@@ -707,6 +707,7 @@ button {
   position: relative;
   overflow: hidden;
   width: 100%;
+  transform: translateY(0);
 }
 
 .overlay-par {
