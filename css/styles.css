@@ -520,6 +520,8 @@ button {
 .custom-logo {
   fill: currentColor;
   margin: 16px 32px;
+  width: 100%;
+  height: 100%;
 }
 
 .logo-social-list {
@@ -687,18 +689,18 @@ button {
   display: block;
 }
 
-.hover-focus {
+.port-cards-links {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: block;
 }
 
-.hover-focus:hover {
+.port-cards-links:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
   transform: translateY(0%);
 }
 
-.hover-focus:focus {
+.port-cards-links:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
   transform: translateY(0%);
@@ -769,7 +771,7 @@ button {
 .customers-item {
   width: calc((100% - 120px) / 6);
   height: 88px;
-  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
+  border: 1px solid #8e8f99;
   border-radius: 4px;
 }
 
