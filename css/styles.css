@@ -695,20 +695,20 @@ button {
   pointer-events: none;
 }
 
-.overlay-link {
+.port-cards-links {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: block;
 }
 
-.overlay-link:hover,
-.overlay-link:focus {
+.port-cards-links:hover,
+.port-cards-links:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
   transform: translateY(0%);
 }
 
-.overlay-link:hover .overlay-par,
-.overlay-link:focus .overlay-par {
+.port-cards-links:hover .overlay-par,
+.port-cards-links:focus .overlay-par {
   transform: translateY(0%);
 }
 
@@ -767,7 +767,7 @@ button {
   padding-bottom: 120px;
 }
 
-.custom-link {
+.customers-link {
   width: 100%;
   height: 100%;
   border: 1px solid #8e8f99;
