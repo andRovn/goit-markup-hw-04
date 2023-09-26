@@ -19,10 +19,6 @@ p {
   margin: 0;
 }
 
-a {
-  display: block;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
