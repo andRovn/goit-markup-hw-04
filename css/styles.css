@@ -520,8 +520,6 @@ button {
 .custom-logo {
   fill: currentColor;
   margin: 16px 32px;
-  width: 100%;
-  height: 100%;
 }
 
 .logo-social-list {
@@ -822,9 +820,4 @@ button {
 
 .focus-links:focus .overlay-par {
   transform: translateY(0%);
-}
-
-.width-height {
-  height: 100%;
-  width: 100%;
 }
